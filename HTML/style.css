@@ -1,0 +1,308 @@
+.header{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+.syntex{
+    display: inline;
+}
+.syntex h1{
+    border-right: 1px solid black;
+
+}
+.searchbar{
+    padding: 25px 10px;
+}
+#t6{
+    height: 20px;
+}
+.header button{
+    height: 20px;
+}
+.navication{
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(185 188 194);
+}
+.n1{
+    padding: 10px 20px;
+}
+.body{
+    display: flex;
+}
+.left{
+    width: 65%;
+    background-image: url(image/light_trails_photography_cover.webp);
+    background-size: cover;
+    border: 1px solid;
+    
+}
+.right{
+    width: 35%;
+    display: inline-block;
+    
+    margin-left: 5px;
+}
+.r1{
+    width: 235px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    background-image: url(image/1111.jpg);
+    background-size: cover;
+}
+.r2{
+    width: 235px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    background-image: url(image/222.jpg);
+    background-size: cover;
+}
+.r3{
+    width: 235px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    background-image: url(image/3333.jpg);
+    background-size: cover;
+}
+.r4{
+    width: 235px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    background-image: url(image/444.jpg);
+    background-size: cover;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+.img{
+   padding: 50px 30px;
+   border: 1px solid;
+   width: 32%;
+   margin: 50px 20px;
+   background-color: white;
+}
+.image h1{
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+}
+.f1{
+    width: 50%;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px 5px;
+}
+.img1{
+    float: left;
+}
+.footer h1{
+    padding-left: 315px;
+}
+.footer p{
+    padding-left: 315px;
+}
+.footer button{
+    margin: 12px;
+}
+.foot{
+    display: flex;
+    background-color: rgb(203 160 116);
+}
+.foot h1{
+    margin: 10px 20px ;
+}
+.t1{
+    display: block;
+    width: 25%;
+    border: 1px solid (203 160 116);
+    margin: 10px;
+}
+.foot p{
+    margin: 20px 10px;
+}
+.foot button{
+    margin-left: 20px;
+}
+.foot img{
+    width: 100%;
+}
+.t2{
+    display: block;
+    width: 25%;
+    border: 1px solid (203 160 116);
+    margin: 10px;
+}
+#t5{
+    height: 25px;
+}
+.t2 button{
+    width: 60px;
+    height: 25px;
+}
+.foot tt{
+    border: 1px solid;
+}
+.foot input{
+    margin-bottom: 50px;
+    width: 75%;
+}
+.ttt{
+   
+    display:inline-block;
+}
+.ti{
+    display: inline-block;
+    padding: 30px;
+}
+.foot h2{
+    padding-left: 30px;
+}
+.t3{
+    border: 1px solid (203 160 116) ;
+    display: block;
+    width: 25%;
+    margin: 10px;
+}
+.tt3{
+    padding: 0px 10px 10px 10px;
+}
+.foot p{
+    margin-top: 5px;
+}
+.foot h3{
+    padding-left: 10px;
+}
+.foot h5{
+    padding-left: 10px;
+}
+.t4{
+    border: 1px solid (203 160 116);
+    display: block;
+    margin: 10px;
+    width: 25%;
+}
+#f1{
+    border-radius: 1px;
+    width: 93%;
+    height: 30px;
+    margin-left: 5px;
+}
+#f2{
+    border-radius: 1px;
+    width: 93%;
+    height: 30px;
+    margin-left: 5px;
+}
+#address{
+    border-radius: 1px ;
+    width: 93%;
+    height: 100px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.t4 button{
+    width: 100px;
+    height: 25px;
+}
+@media screen and (max-width:800px) {
+ .simple{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .header{
+    order: 6;
+    width: 100%;
+ }   
+ .navication{
+    order: 5;
+    width: 99.5%;
+ }
+ .n1{
+    padding: 10px;
+  
+ }
+ .body{
+    order: 4;
+    width: 100%;
+ }
+ .left{
+    width: 50%;
+    display: block;
+}
+ .right{
+    width: 50%;
+    display: inline-block;
+ }
+ .r1{
+    width: 48%;
+ }
+ .r2{
+    width: 48%;
+ }
+ .r3{
+    width: 48%;
+ }
+ .r4{
+    width: 48%;
+ }
+ .image{
+    order: 3;
+    width: 100%;
+    display: inline-block;
+ }
+.img{
+    width: 57%;
+    text-align: center;
+    margin: 150px;
+}
+ .footer{
+    order: 2;
+    width: 100%;
+ }
+ .f1{
+    width: 50%;
+    display: inline-block;
+ }
+ .img1 {
+    width: 100%;
+    display: inline-block;
+}
+.footer h1{
+    padding: 0px;
+}
+.footer p{
+    padding: 0px;
+}
+
+ .foot{
+    order: 1;
+    width: 100%;
+ }
+ .t1{
+    width: 23%; 
+ }
+ .t2{
+    width: 23%; 
+ }
+ .t3{
+    width: 23%; 
+ }
+ .t4{
+    width: 23%; 
+ }
+}
